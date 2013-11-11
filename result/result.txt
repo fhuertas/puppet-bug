@@ -1,7 +1,10 @@
-Notice: /Stage[main]/Nada/Nada::Mkdir[dir1-3]/Exec[/tmp/nada-dir1-3.sh]/returns: executed successfully
-Notice: /Stage[main]/Nada/Nada::Mkdir[dir1-2]/Exec[/tmp/nada-dir1-2.sh]/returns: executed successfully
-Notice: /Stage[main]/Nada/Nada::Mkdir[dir1-1]/Exec[/tmp/nada-dir1-1.sh]/returns: executed successfully
-Notice: /Stage[main]/Nada2/Nada2::Mkdir[dir2-1]/Exec[/tmp/nada2-dir2-1.sh]/returns: executed successfully
-Notice: /Stage[main]/Nada2/Nada2::Mkdir[dir2-3]/Exec[/tmp/nada2-dir2-3.sh]/returns: executed successfully
-Notice: /Stage[main]/Nada2/Nada2::Mkdir[dir2-2]/Exec[/tmp/nada2-dir2-2.sh]/returns: executed successfully
+Notice: /Stage[main]/Nada2::Install/Nada2::Mkdir[dir2-1]/Exec[/tmp/nada2-dir2-1.sh]/returns: executed successfully
+Notice: /Stage[main]/Nada2::Install/Nada2::Mkdir[dir2-3]/Exec[/tmp/nada2-dir2-3.sh]/returns: executed successfully
+Notice: /Stage[main]/Nada::Install/Nada::Mkdir[dir1-3]/Exec[/tmp/nada-dir1-3.sh]/returns: executed successfully
+Notice: /Stage[main]/Nada2::Install/Nada2::Mkdir[dir2-6]/Exec[/tmp/nada2-dir2-6.sh]/returns: executed successfully
+Notice: /Stage[main]/Nada2::Install/Nada2::Mkdir[dir2-4]/Exec[/tmp/nada2-dir2-4.sh]/returns: executed successfully
+Notice: /Stage[main]/Nada::Install/Nada::Mkdir[dir1-2]/Exec[/tmp/nada-dir1-2.sh]/returns: executed successfully
+Notice: /Stage[main]/Nada::Install/Nada::Mkdir[dir1-1]/Exec[/tmp/nada-dir1-1.sh]/returns: executed successfully
+Notice: /Stage[main]/Nada2::Install/Nada2::Mkdir[dir2-5]/Exec[/tmp/nada2-dir2-5.sh]/returns: executed successfully
+Notice: /Stage[main]/Nada2::Install/Nada2::Mkdir[dir2-2]/Exec[/tmp/nada2-dir2-2.sh]/returns: executed successfully
 
