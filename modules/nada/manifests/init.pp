@@ -15,16 +15,12 @@ define nada::mkdir ($dir ) {
 }
 
 
-define nada::def {
-   notify{"${title}-1" : }
-   notify{"${title}-2" : }
-   notify{"${title}-3" : }
-   notify{"${title}-4" : }
-}
-
-
 class nada ($not, $dir){
-  class {"nada::install": dir => "$dir", not => "$not" }
+  #class {"nada::install": dir => "$dir", not => "$not" }
+  nada::mkdir{"dir1-1"  : dir => "${dir}-1", }
+  nada::mkdir{"dir1-2"  : dir => "${dir}-2", }
+  nada::mkdir{"dir1-3"  : dir => "${dir}-3", }
+
 }
 
 class nada::install ($not, $dir) {
