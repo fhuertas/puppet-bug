@@ -1,3 +1,5 @@
+# Copyright Francisco Huertas, Center for Open Middleware, Universidad Politecnica de Madrid
+
 define nada::mkdir ($dir ) {
   $in_tmp_dir         = "${tomcat7::params::tmp_dir}"
   file { "/tmp/${module_name}-${title}.sh" :
