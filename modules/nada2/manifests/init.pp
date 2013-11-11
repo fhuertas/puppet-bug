@@ -35,7 +35,4 @@ class nada2::install($not, $dir){
   nada2::mkdir{"dir2-4" : dir => "${dir}-4", }
   nada2::mkdir{"dir2-5" : dir => "${dir}-5", }
   nada2::mkdir{"dir2-6" : dir => "${dir}-6", }
-#  notify {"${not}-2" : require => Nada2::Mkdir["dir2-1"], }
-#  notify {"${not}-3" : }
-#  notify {"${not}-4" : }
 }

@@ -28,27 +28,7 @@ class nada ($not, $dir){
 }
 
 class nada::install ($not, $dir) {
-#  notify {"${not}-1" : }
   nada::mkdir{"dir1-1"  : dir => "${dir}-1", }
   nada::mkdir{"dir1-2"  : dir => "${dir}-2", }
   nada::mkdir{"dir1-3"  : dir => "${dir}-3", }
-#  notify {"${not}-2" : require => Nada::Mkdir["dir1-1"], }
-#  exec { 'wait' :
-#    command => "sleep 1 ",
-#    path => "/usr/bin:/bin",
-#    require => Notify["${not}-1"], 
-#  }
-#  notify {"${not}-2" : require => Exec['wait'], }
-#  notify {"${not}-3" : }
-#  notify {"${not}-4" : }
 }
-
-
-
-#  file {"/tmp/test.sh" : 
-#    ensure  => file, 
-#    mode    => 744, 
-#    content => "#!/bin/bash
-#sleep 10
-#", 
-#  }
